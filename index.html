@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopper</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body class="bg-primary-subtle">
+    <nav class="navbar navbar-expand-lg bg-body text-emphasis-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-info fw-bold fs-3" href="#">Shopper</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.amazon.in/gp/bestsellers/?ref_=nav_em_cs_bestsellers_0_1_1_2">Best Sellers</a></li>
+                  <li><a class="dropdown-item" href="https://www.amazon.in/gp/new-releases/?ref_=nav_em_cs_newreleases_0_1_1_3">New Releases</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://www.amazon.in/gp/browse.html?node=1389401031&ref_=nav_em_sbc_mobcomp_all_mobiles_0_2_8_2">Mobiles & Computers</a></li>
+                  <li><a class="dropdown-item" href="https://www.amazon.in/gp/browse.html?node=1968024031&ref_=nav_em_sbc_mfashion_clothing_0_2_10_2">Clothes</a></li>
+                  <li><a class="dropdown-item" href="https://www.amazon.in/gp/browse.html?node=976419031&ref_=nav_em_sbc_tvelec_all_elec_0_2_9_13">Electronics</a></li>
+                  <li><a class="dropdown-item" href="https://www.amazon.in/gp/browse.html?node=1355016031&ref_=nav_em_sbc_bhg_beauty_all_0_2_13_2">Beauty,Health,Grocery</a></li>
+                  <li><a class="dropdown-item" href="https://www.amazon.in/showroom/switch">Home,Kitchen,Pets</a></li>
+                  <li><a class="dropdown-item" href="https://www.amazon.in/gp/browse.html?node=976389031&ref_=nav_em_sbc_books_all_0_2_17_2">Books</a></li>
+                  <li><a class="dropdown-item" href="https://www.amazon.in/gp/browse.html?node=976416031&ref_=nav_em_sbc_mmvg_movies_all_0_2_18_2">More</a></li>
+                </ul>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SignUp</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 border border-secondary" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- Navbar End Here -->
+
+<!-- Carousels Start Here -->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="https://previews.123rf.com/images/bravissimos/bravissimos2208/bravissimos220800158/190451486-flash-sale-discount-vector-background-banner-design-percent-icon.jpg" class="d-block w-100" alt="1">
+      </div>
+      <div class="carousel-item">
+        <img src="https://previews.123rf.com/images/hstrongart/hstrongart2110/hstrongart211000088/176315150-3d-yellow-great-discount-sale-background-illustration-of-large-sale-word-with-shopping-cart-gift.jpg" class="d-block w-100" alt="2">
+      </div>
+      <div class="carousel-item active">
+        <img src="diwali-offers.jpg" class="d-block w-100" alt="3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- Carousels End Here -->
+
+<!-- Offers Cards Start Here -->
+
+<div class="container mt-5">
+
+  <div class="d-flex justify-content-around flex-nowrap">
+    <div class="card" style="width: 18rem;">
+      <img src="mens-clothing.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Men's fashion</h5>
+        <a href="https://www.amazon.in/gp/browse.html?node=1968024031&ref_=nav_em_sbc_mfashion_clothing_0_2_10_2" class="btn btn-primary">Explore All</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      <img src="woman-clothing (1).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Women's fashion</h5>
+        <a href="https://www.amazon.in/gp/browse.html?node=1953602031&ref_=nav_em_sbc_wfashion_clothing_0_2_11_2" class="btn btn-primary">Explore All</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      <img src="children-clothing (1).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Children's fashion</h5>
+        <a href="https://www.amazon.in/gp/browse.html?node=4091091031&ref_=nav_em_sbc_tbk_kids_clothing_0_2_15_14" class="btn btn-primary">Explore All</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="d-flex justify-content-around mt-4">
+  
+    <div class="card" style="width: 18rem;">
+      <img src="kitchen-tools new.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Kitchen tools</h5>
+        <a href="https://www.amazon.in/gp/browse.html?node=976442031&ref_=nav_em_sbc_hk_all_0_2_12_15" class="btn btn-primary">Explore All</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      <img src="6864310.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Kitchen Appliances</h5>
+        <a href="https://www.amazon.in/gp/browse.html?node=976442031&ref_=nav_em_sbc_hk_all_0_2_12_15" class="btn btn-primary">Explore All</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      <img src="accessories (1).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Electronics Accessories</h5>
+        <a href="https://www.amazon.in/gp/browse.html?node=976419031&ref_=nav_em_sbc_tvelec_all_elec_0_2_9_13" class="btn btn-primary">Explore All</a>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="d-flex justify-content-around mt-4">
+  
+    <div class="card" style="width: 18rem;">
+      <img src="laptop.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Laptops</h5>
+        <a href="https://www.amazon.in/gp/browse.html?node=1375424031&ref_=nav_em_sbc_mobcomp_laptops_0_2_8_15" class="btn btn-primary">Explore All</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      <img src="ORH8S60.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Smartphones</h5>
+        <a href="https://www.amazon.in/gp/browse.html?node=1389401031&ref_=nav_em_sbc_mobcomp_all_mobiles_0_2_8_2" class="btn btn-primary">Explore All</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      <img src="smartband (1).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">smartbands</h5>
+        <a href="https://www.amazon.in/s?k=smartbands&i=dvd&ref=nb_sb_noss_2" class="btn btn-primary">Explore All</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- Offers Cards End Here -->
+
+<!-- pagination start here -->
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center mt-4">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+<!-- pagination end here -->
+
+<!-- footer start here -->
+<div class="container bg-black text-light-emphasis d-flex justify-content-center fs-7 p-2">
+  &copy;All Rights Reserved 2023 | Shopper
+</div>
+<!-- footer end here -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
